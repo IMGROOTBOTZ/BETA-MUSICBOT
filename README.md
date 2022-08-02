@@ -2,7 +2,7 @@
 
 # BETA Music Bot <img src="https://img.shields.io/github/v/release/BETA-OFFICIAL/BETA-MUSICBOT?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
-[Beta Music Bot](https://t.me/BETA_MUSICPLAYEROBOT) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
+[Beta Music Bot](http://t.me/HEXMUSIC_BOT) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+Beta-Music+Repo!;A+simple+Music+stream+bot!;with+all+Features!)
@@ -13,7 +13,7 @@
     ──「 DEVELOPER 」──
 </h2>
 <p align="center">
-<a href="https://t.me/JP_Jeol_org"><img src="https://img.shields.io/badge/JEOL-ReD.svg?style=for-the-badge&logo=Python"></a>
+<a href="https://t.me/Tamilan444"><img src="https://img.shields.io/badge/JEOL-ReD.svg?style=for-the-badge&logo=Python"></a>
 </p>
 
 ## Heroku Deployment
