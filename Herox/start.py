@@ -54,7 +54,7 @@ async def _human_time_duration(seconds):
 async def start_private(client: Client, message: Message):
  insert(int(message.chat.id))
  await message.reply_photo(
-        photo=f"https://telegra.ph//file/69b6154eaecdaf3845d9f.jpg",
+        photo=f"https://telegra.ph/file/b5e7cbf21563ab4c44ef1.jpg",
         caption=f"""ʜᴇʟʟᴏ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ**
