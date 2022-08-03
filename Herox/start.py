@@ -1,7 +1,6 @@
 from datetime import datetime
 from sys import version_info
 from time import time
-from Herox.database import insert
 
 from config import (
     ALIVE_IMG,
@@ -10,7 +9,6 @@ from config import (
     BOT_USERNAME,
     GROUP_SUPPORT,
     OWNER_NAME,
-    ASSISTANT_NAME,
     UPDATES_CHANNEL,
 )
 from SJM.decorators import sudo_users_only
@@ -52,13 +50,12 @@ async def _human_time_duration(seconds):
     command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
 async def start_private(client: Client, message: Message):
- insert(int(message.chat.id))
  await message.reply_photo(
-        photo=f"https://telegra.ph//file/69b6154eaecdaf3845d9f.jpg",
+        photo=f"https://telegra.ph/file/b5e7cbf21563ab4c44ef1.jpg",
         caption=f"""ʜᴇʟʟᴏ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
- **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ**
- **𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 [BETA 𝙱𝙾𝚃𝚉](t.me/beta_bot_updates)**""",
+ **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
+ **𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 [IAMGROOTBOTZ](t.me/IAMGROOTBOTZ)**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -83,7 +80,7 @@ async def start_private(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• ASSISTANT •", url=f"t.me/{ASSISTANT_NAME}"
+                        "• WEBSITE •", url="http://www.betaofficialbot.blogspot.com/"
                     )
                 ],
             ]
@@ -126,7 +123,7 @@ async def help(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **Hello** {message.from_user.mention()} !
 » **press the button below to read the explanation and see the list of available commands !**
-⚡ __Powered by {BOT_NAME}__""",
+⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="❓ Basic Guide", callback_data="cb_cmd")]]
         ),
@@ -138,7 +135,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text(f"🏓 Bot Alive {BOT_NAME} `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 Bot Alive 𝘽𝙀𝙏𝘼 𝙈𝙐𝙎𝙄𝘾 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
@@ -152,3 +149,4 @@ async def get_uptime(client: Client, message: Message):
         f"• **uptime:** `{uptime}`\n"
         f"• **start time:** `{START_TIME_ISO}`"
     )
+Footer
