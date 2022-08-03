@@ -1,4 +1,4 @@
-<img src="https://telegra.ph/file/c5fd1d1bb77046198752740e37ed2858.jpg" align="right" width="200" height="200"/>
+<img src="https://telegra.ph/file/b5e7cbf21563ab4c44ef1.jpg" align="right" width="200" height="200"/>
 
 # BETA Music Bot <img src="https://img.shields.io/github/v/release/BETA-OFFICIAL/BETA-MUSICBOT?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
