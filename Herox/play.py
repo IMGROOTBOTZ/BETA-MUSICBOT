@@ -1,3 +1,21 @@
+Skip to content
+BETA-OFFICIAL
+/
+BETA-MUSICBOT
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+BETA-MUSICBOT/Herox/play.py
+@Jeolpaul
+Jeolpaul Update play.py
+ 1 contributor
+313 lines (288 sloc)  12.3 KB
 # Created by Beta
 
 import io
@@ -311,3 +329,17 @@ async def play(c: Client, m: Message):
                         except Exception as ep:
                             await suhu.delete()
                             await m.reply_text(f"💬 error: `{ep}`")
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
