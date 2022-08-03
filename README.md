@@ -13,7 +13,7 @@
     ──「 DEVELOPER 」──
 </h2>
 <p align="center">
-<a href="https://t.me/Tamilan444"><img src="https://img.shields.io/badge/JEOL-ReD.svg?style=for-the-badge&logo=Python"></a>
+<a href="https://t.me/Tamilan444"><img src="https://img.shields.io/badge/Ragav-ReD.svg?style=for-the-badge&logo=Python"></a>
 </p>
 
 ## Heroku Deployment
